@@ -1,4 +1,4 @@
-package yingjia67.arithmetic;
+package yingjia67.arithmetic.list;
 
 import java.util.HashMap;
 

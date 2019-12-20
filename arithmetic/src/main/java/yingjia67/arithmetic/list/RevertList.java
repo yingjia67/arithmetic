@@ -1,4 +1,4 @@
-package yingjia67.arithmetic;
+package yingjia67.arithmetic.list;
 
 public class RevertList {
     public static void main(String[] args) {
@@ -27,8 +27,7 @@ public class RevertList {
             }
 
             ListNode bakNode = head;
-            ListNode emptyNode = new ListNode(0);
-            ListNode movedNode = emptyNode;
+            ListNode movedNode = null;
             while (bakNode.next!=null){
                 ListNode tmpNode = bakNode.next;
                bakNode.next = movedNode;
@@ -36,7 +35,6 @@ public class RevertList {
                bakNode = tmpNode;
             }
             bakNode.next = movedNode;
-            head.next =null;
             return bakNode;
         }
     }

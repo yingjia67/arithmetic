@@ -1,4 +1,4 @@
-package yingjia67.arithmetic;
+package yingjia67.arithmetic.list;
 
 // Definition for a Node.
 class Node {
