@@ -1,4 +1,4 @@
-package yingjia67.arithmetic;
+package yingjia67.arithmetic.HeapStackQueue;
 
 public class MaxNumOfK {
 
@@ -26,14 +26,15 @@ public class MaxNumOfK {
             int num = k;
             Data data1 = quickSort(nums,left,right);
             while (true){
-                if(data1.num-left == num-1){
+                int currentNum = right-left+1-(data1.num-left);
+                if(currentNum == num){
                     return data1.value;
-                }else if(data1.num-left> num-1){
+                }else if(currentNum> num){
                     num = num;
                     left = data1.num+1;
                     return findKthLargest(nums,left,right,num);
                 }else {
-                    num = k-(right-data1.num+1);
+                    num = k-currentNum;
                     right = data1.num-1;
                     return findKthLargest(nums,left,right,num);
                 }
