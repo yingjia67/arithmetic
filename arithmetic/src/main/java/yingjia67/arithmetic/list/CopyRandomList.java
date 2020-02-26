@@ -1,6 +1,7 @@
 package yingjia67.arithmetic.list;
 
 import java.util.HashMap;
+import yingjia67.arithmetic.PublicClass.Node;
 
 public class CopyRandomList {
 

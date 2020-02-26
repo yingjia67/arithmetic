@@ -1,5 +1,8 @@
 package yingjia67.arithmetic.list;
 
+
+import yingjia67.arithmetic.PublicClass.ListNode;
+
 public class OddEventNode {
     public static void main(String[] args) {
         Solution solution = new Solution();

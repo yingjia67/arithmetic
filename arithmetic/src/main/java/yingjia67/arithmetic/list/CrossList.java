@@ -1,5 +1,8 @@
 package yingjia67.arithmetic.list;
 
+import yingjia67.arithmetic.PublicClass.ListNode;
+
+
 public class CrossList {
     static class Solution {
         public ListNode getIntersectionNode(ListNode headA, ListNode headB) {

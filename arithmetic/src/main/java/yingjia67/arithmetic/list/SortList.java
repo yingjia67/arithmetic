@@ -1,5 +1,6 @@
 package yingjia67.arithmetic.list;
 
+import yingjia67.arithmetic.PublicClass.ListNode;
 public class SortList {
 
     public static void main(String[] args) {
